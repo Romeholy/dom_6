@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+    background-color:#D2D2D2;
+    font: 24px "Arial, Helvetica, sans-serif";
+    color:#333333;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  p {
+    text-align: center;
+  }
+
+  #velg {
+    background-color: #D2D2D2; 
+    border: 2px solid black;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #endre {
+    background-color: #D2D2D2; 
+    border: 2px solid black;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #text{
+    background-color: #D2D2D2; 
+    border: 2px solid black;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #velg:hover {
+    background-color: #e7e7e7;
+  }
+ 
+
+
+
+
+
+
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  select option[value="1"] {
+    background: rgba(41, 216, 18, 0.76);
+  }
+  
+  select option[value="2"] {
+    background: rgba(19, 60, 208, 0.69);
+  }
+  
+  select option[value="3"] {
+    background: rgba(205, 8, 8, 0.767);
+  }
+  
+  select option[value="4"] {
+    background: rgb(220, 129, 11);
+  }
+  select option[value="5"] {
+    background: rgb(255, 234, 6);
+  }
+  select option[value="6"] {
+    background: rgb(157, 18, 207);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    color: #fff;
+  }
+  
+  li {
+    /* background-color: #fff; */
+    border-radius: 5px;
+    padding: 10px 30px;
+    /* color: #000; */
+  }  
